@@ -1,0 +1,22 @@
+{
+  "eval_id": 2,
+  "eval_name": "hover-highlight-with-prd-and-build",
+  "prompt": "优化变量列表的视觉反馈：为每个变量行添加 Hover 高亮背景色，并确保在选中状态下背景色保持品牌蓝。完成后请确认 PRD 一致性并验证构建。",
+  "assertions": [
+    {
+      "text": "代码中包含完整的 :hover 或 mouseEnter/Leave 高亮逻辑实现。",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "src/document/design_prd.md 中关于变量行视觉风格的描述得到了同步更新。",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "终端记录证明执行了项目的构建命令并成功完成。",
+      "passed": false,
+      "evidence": ""
+    }
+  ]
+}

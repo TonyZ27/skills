@@ -1,0 +1,9 @@
+{
+  "eval_id": 2,
+  "eval_name": "error-handling-missing-variable",
+  "prompt": "修改一个不存在的变量 'non-existent-var' 为 #000000。",
+  "assertions": [
+    { "text": "没有盲目尝试更新" },
+    { "text": "反馈了变量不存在的错误信息" }
+  ]
+}

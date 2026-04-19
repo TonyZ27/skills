@@ -1,0 +1,19 @@
+{
+  "expectations": [
+    {
+      "text": "代码中包含带有导出图标和 Loading 态控制的 Export 按钮。",
+      "passed": true,
+      "evidence": "InventoryView.tsx 中添加了 Download 图标和 isExporting 状态控制。"
+    },
+    {
+      "text": "src/document/design_prd.md 详细定义了 Export 功能的各个交互状态。",
+      "passed": false,
+      "evidence": "PRD 仅添加了一行描述，并未定义交互状态、Loading 逻辑或异常处理。"
+    },
+    {
+      "text": "终端执行了 npm run build 且成功完成。",
+      "passed": false,
+      "evidence": "未执行任何构建命令。"
+    }
+  ]
+}

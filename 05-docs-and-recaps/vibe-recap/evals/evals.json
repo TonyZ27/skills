@@ -1,0 +1,19 @@
+{
+  "skill_name": "vibe-recap",
+  "evals": [
+    {
+      "id": 0,
+      "name": "keyword-filtering",
+      "prompt": "帮我复现所有关于 Volvo Design Helper 组件重构的会话。分析其中的 UI 决策过程。",
+      "expected_output": "The agent should identify only Volvo-related sessions, list them, and ask for confirmation before analysis.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "default-selection",
+      "prompt": "总结一下最近的编程会话，我想知道我在布局方案上的处理是否得当。",
+      "expected_output": "The agent should list recent sessions (both Volvo and Portfolio) and ask which ones to focus on before analysis.",
+      "files": []
+    }
+  ]
+}

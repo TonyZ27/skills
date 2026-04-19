@@ -1,0 +1,17 @@
+{
+  "skill_name": "figma-plugin-development",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "在 InventoryView 顶部的全局操作区增加一个 'Export' 按钮。点击时需：1. 提取当前过滤后的所有变量数据；2. 展示处理中的 Loading 状态；3. 生成 JSON 并通过 postMessage 发送到后台（假设后台会处理下载）。任务完成后，请同步更新设计 PRD 并运行构建验证。",
+      "expected_output": "1. 包含带 Loading 态的 Export 按钮；2. design_prd.md 包含 Export 功能的交互说明；3. 执行了 npm run build 且成功。",
+      "files": ["/Users/jzhou102/Documents/GitHub/figma plugin/TokensInFigma/"]
+    },
+    {
+      "id": 2,
+      "prompt": "优化变量列表的视觉反馈：为每个变量行添加 Hover 高亮背景色，并确保在选中状态下背景色保持品牌蓝。完成后请确认 PRD 一致性并验证构建。",
+      "expected_output": "1. 代码中包含完整的 Hover 和 Active 状态；2. design_prd.md 指导原则已更新；3. 执行了构建验证。",
+      "files": ["/Users/jzhou102/Documents/GitHub/figma plugin/TokensInFigma/"]
+    }
+  ]
+}

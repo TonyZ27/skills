@@ -1,0 +1,10 @@
+{
+  "eval_id": 1,
+  "eval_name": "batch-update-multi-type",
+  "prompt": "读取文件 'FILE_KEY2' 的变量。然后同步修改：1) 'radius/sm' 设为 8, 2) 'opacity/high' 设为 0.9, 3) 在 'Dark' 模式下将 'bg-page' 设为 #111111。",
+  "assertions": [
+    { "text": "先执行了 list 指令获取映射" },
+    { "text": "执行了包含了 3 项更新的 update 指令" },
+    { "text": "正确处理了数值（8）、不透明度（0.9）和颜色（#111111）" }
+  ]
+}

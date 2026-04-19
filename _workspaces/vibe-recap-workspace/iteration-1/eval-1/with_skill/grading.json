@@ -1,0 +1,14 @@
+{
+  "expectations": [
+    {
+      "text": "The agent lists recent sessions.",
+      "passed": true,
+      "evidence": "Lists both Portfolio and Volvo categories."
+    },
+    {
+      "text": "The agent asks for session selection/confirmation.",
+      "passed": true,
+      "evidence": "Asks '你想重点复盘哪一类？'"
+    }
+  ]
+}

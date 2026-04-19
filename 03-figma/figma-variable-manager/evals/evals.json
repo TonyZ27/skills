@@ -1,0 +1,26 @@
+{
+  "skill_name": "figma-variable-manager",
+  "evals": [
+    {
+      "id": 1,
+      "name": "single-color-update",
+      "prompt": "Figma FileKey 是 'TEST_FILE_KEY', PAT 是 'YOUR_PAT'。请把 Mode 为 'Light' 下的 'brand/primary' 变量更新为 #FF5500。",
+      "expected_output": "表格展示变动项，调用 scripts/figma-api.js update 指令，JSON payload 包含正确的 variableId 和 modeId，颜色值为 #FF5500。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "batch-update-multi-type",
+      "prompt": "读取文件 'FILE_KEY2' 的变量。然后同步修改：1) 'radius/sm' 设为 8, 2) 'opacity/high' 设为 0.9, 3) 在 'Dark' 模式下将 'bg-page' 设为 #111111。",
+      "expected_output": "先执行 list 操作，建立映射。随后发起 update 请求，payload 包含 3 个更新项，其中颜色已处理为 HEX 或 RGBA。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "error-handling-missing-variable",
+      "prompt": "修改一个不存在的变量 'non-existent-var' 为 #000000。",
+      "expected_output": "在执行 list 后识别到变量不存在，并友好地向用户报告：'找不到变量 non-existent-var，请检查名称是否正确'，不应抛出脚本异常。",
+      "files": []
+    }
+  ]
+}

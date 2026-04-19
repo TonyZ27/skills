@@ -1,0 +1,14 @@
+{
+  "expectations": [
+    {
+      "text": "The agent identifies Volvo-related sessions.",
+      "passed": true,
+      "evidence": "Lists 3 relevant session IDs."
+    },
+    {
+      "text": "The agent asks for confirmation before analysis.",
+      "passed": true,
+      "evidence": "Asks '这是否是你想要复盘的范围？'"
+    }
+  ]
+}

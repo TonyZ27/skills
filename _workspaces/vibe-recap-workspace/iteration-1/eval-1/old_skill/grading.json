@@ -1,0 +1,14 @@
+{
+  "expectations": [
+    {
+      "text": "The agent lists recent sessions.",
+      "passed": true,
+      "evidence": "Summarizes both Portfolio and Plugin works."
+    },
+    {
+      "text": "The agent asks for session selection/confirmation.",
+      "passed": false,
+      "evidence": "Directly provides a summary without orientation."
+    }
+  ]
+}

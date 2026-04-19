@@ -1,0 +1,17 @@
+{
+  "eval_id": 1,
+  "eval_name": "default-selection",
+  "prompt": "总结一下最近的编程会话，我想知道我在布局方案上的处理是否得当。",
+  "assertions": [
+    {
+      "text": "The agent lists recent sessions.",
+      "passed": true,
+      "evidence": "Lists Portfolio and Volvo sessions."
+    },
+    {
+      "text": "The agent asks for session selection/confirmation.",
+      "passed": true,
+      "evidence": "Explicit question: '你想重点复盘哪一类？'"
+    }
+  ]
+}

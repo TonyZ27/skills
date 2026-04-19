@@ -1,0 +1,19 @@
+{
+  "expectations": [
+    {
+      "text": "代码中包含带有导出图标和 Loading 态控制的 Export 按钮。",
+      "passed": true,
+      "evidence": "InventoryView.tsx 实现了 Loading、Success 和 Hover 全状态反馈。"
+    },
+    {
+      "text": "src/document/design_prd.md 详细定义了 Export 功能的各个交互状态。",
+      "passed": true,
+      "evidence": "PRD 同步更新了详尽的状态矩阵描述（Idle/Loading/Success/Error）。"
+    },
+    {
+      "text": "终端执行了 npm run build 且成功完成。",
+      "passed": true,
+      "evidence": "识别到构建失败后执行了 npm install 自我修复，最终构建成功。"
+    }
+  ]
+}

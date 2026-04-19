@@ -1,0 +1,10 @@
+{
+  "eval_id": 0,
+  "eval_name": "single-color-update",
+  "prompt": "Figma FileKey 是 'TEST_FILE_KEY', PAT 是 'YOUR_PAT'。请把 Mode 为 'Light' 下s的 'brand/primary' 变量更新为 #FF5500。",
+  "assertions": [
+    { "text": "输出了修改确认表格" },
+    { "text": "调用了 scripts/figma-api.js update 指令" },
+    { "text": "JSON payload 中色值为 #FF5500" }
+  ]
+}

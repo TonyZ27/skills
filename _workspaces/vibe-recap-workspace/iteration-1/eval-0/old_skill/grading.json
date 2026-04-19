@@ -1,0 +1,14 @@
+{
+  "expectations": [
+    {
+      "text": "The agent identifies Volvo-related sessions.",
+      "passed": false,
+      "evidence": "Identifies some, but also includes unrelated sessions like 335f... (Portfolio)."
+    },
+    {
+      "text": "The agent asks for confirmation before analysis.",
+      "passed": false,
+      "evidence": "Skips confirmation and starts detailed analysis immediately."
+    }
+  ]
+}

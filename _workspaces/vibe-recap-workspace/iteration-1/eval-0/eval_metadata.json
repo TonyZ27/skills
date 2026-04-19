@@ -1,0 +1,17 @@
+{
+  "eval_id": 0,
+  "eval_name": "keyword-filtering",
+  "prompt": "帮我复现所有关于 Volvo Design Helper 组件重构的会话。分析其中的 UI 决策过程。",
+  "assertions": [
+    {
+      "text": "The agent identifies Volvo-related sessions.",
+      "passed": true,
+      "evidence": "Matches IDs: 0d08..., 301b..., 2a33..."
+    },
+    {
+      "text": "The agent asks for confirmation before analysis.",
+      "passed": true,
+      "evidence": "Explicit question: '确认后我将开始分析...'"
+    }
+  ]
+}
